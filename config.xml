@@ -14,7 +14,7 @@
     </author>
     <preference name="phonegap-version" />
     <gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="com.pushwoosh.plugins.pushwoosh" version="3.0.2" />
+    <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
     <gap:plugin name="nl.x-services.plugins.socialsharing" />
 
 
