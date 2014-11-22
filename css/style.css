@@ -83,8 +83,9 @@
     background: #f5f5f5;
 }
 .footbutton button {
-    margin: 35px auto 0 !important;
+    margin: 35px 0 0;
     display: block;
+    text-align: center;
     color: #fff;
     background-color: #4ba82e;
     font-family: 'Open Sans';
