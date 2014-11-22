@@ -26,6 +26,9 @@
     right: 0px;
     top: 2px;
 }
+.frontpage {
+    margin-top: 60px;
+}
 .frontpage img {
     margin: 0 auto;
     height: 75px;
