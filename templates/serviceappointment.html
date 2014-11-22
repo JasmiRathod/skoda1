@@ -1,0 +1,47 @@
+<div class="bar bar-header bar-light headerlogo">
+    <span>SERVICE APPOINTMENT</span>
+    <img src="img/headerlogo.png" />
+</div>
+
+<div class="list list-inset enquiry">
+    <label class="item item-input">
+        <span class="input-label">Name</span>
+        <input type="text" ng-model="sa.name">
+    </label>
+    <label class="item item-input">
+        <span class="input-label">Contact no.</span>
+        <input type="tel" ng-model="sa.contactno">
+    </label>
+
+        <label class="item item-input item-select">
+            <div class="input-label">
+                Car Name
+            </div>
+            <select ng-model="sa.carname">
+                <option></option>
+                <option value="Fabia">Fabia</option>
+                <option value="Rapid">Rapid</option>
+                <option value="Yeti">Yeti</option>
+                <option value="Octavia">Octavia</option>
+                <option value="Superb">Superb</option>
+            </select>
+        </label>
+
+    <label class="item item-input">
+        <span class="input-label">Registration No.</span>
+        <input type="text" ng-model="sa.regno">
+    </label>
+    <label class="item item-input">
+        <span class="input-label">Date of Servicing</span>
+        <input type="date" ng-model="sa.dos">
+    </label>
+    <label class="item item-input">
+        <span class="input-label">Preferred Time</span>
+        <input type="time" ng-model="sa.times">
+    </label>
+</div>
+
+<div class="footbutton">
+    <button class="button" ng-click="sasubmit(sa);">Submit</button>
+</div>
+

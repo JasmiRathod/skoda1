@@ -1,0 +1,40 @@
+<div class="bar bar-header bar-light headerlogo1">
+    <span>TEST DRIVE</span>
+    <img src="img/headerlogo.png" />
+</div>
+
+<div class="list list-inset enquiry">
+    <label class="item item-input">
+        <span class="input-label">Name</span>
+        <input type="text" ng-model="td.name">
+    </label>
+    <label class="item item-input">
+        <span class="input-label">Contact no.</span>
+        <input type="tel" ng-model="td.contactno">
+    </label>
+        <label class="item item-input item-select">
+            <div class="input-label">
+                Car Name
+            </div>
+            <select ng-model="td.carname">
+                <option></option>
+                <option value="Fabia">Fabia</option>
+                <option value="Rapid">Rapid</option>
+                <option value="Yeti">Yeti</option>
+                <option value="Octavia">Octavia</option>
+                <option value="Superb">Superb</option>
+            </select>
+        </label>
+
+    
+
+    <label class="item item-input">
+        <span class="input-label" ng-model="td.location">Location</span>
+        <input type="text" ng-model="td.location">
+    </label>
+</div>
+
+<div class="footbutton">
+    <button class="button" ng-click="tdsubmit(td);">Submit</button>
+</div>
+

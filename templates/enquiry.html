@@ -1,0 +1,61 @@
+<div class="bar bar-header bar-light headerlogo1">
+    <span>ENQUIRY</span>
+    <img src="img/headerlogo.png" />
+</div>
+
+<form name="enquiryform" class="enquiry" novalidate form-manager>
+
+    <div class="list list-inset enquiry">
+        <label class="item item-input">
+            <span class="input-label">Name</span>
+            <input ng-model="enq.name" type="text" />
+        </label>
+        <label class="item item-input">
+            <span class="input-label">Contact no.</span>
+            <input ng-model="enq.contactno" type="tel" />
+        </label>
+
+
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    Car Name
+                </div>
+                <select ng-model="enq.carname">
+                    <option></option>
+                    <option value="Fabia">Fabia</option>
+                    <option value="Rapid">Rapid</option>
+                    <option value="Yeti">Yeti</option>
+                    <option value="Octavia">Octavia</option>
+                    <option value="Superb">Superb</option>
+                </select>
+            </label>
+
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    Car Model
+                </div>
+                <select ng-model="enq.carmodel">
+                    <option></option>
+                    <option value="Basic">Basic</option>
+                    <option value="Mid-Range">Mid-Range</option>
+                    <option value="Top-Range">Top-Range</option>
+                </select>
+            </label>
+
+
+        <label class="item item-input">
+            <span class="input-label">Budget</span>
+            <input ng-model="enq.budget" type="text" />
+        </label>
+        <label class="item item-input">
+            <span class="input-label">Location</span>
+            <input ng-model="enq.location" type="text" />
+        </label>
+    </div>
+
+
+    <div class="footbutton">
+        <button class="button" ng-click="enqsubmit(enq)">Submit</button>
+    </div>
+
+</form>
