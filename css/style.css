@@ -88,12 +88,12 @@
 .footbutton button {
     color: #fff;
     background-color: #4ba82e;
-    font-family: 'Open Sans';
     font-size: 16px;
     border-radius: 9px;
     padding: 0px 20px;
     margin-top: 35px;
     display: inline;
+    border-color: #4ba82e;
 }
 .item+.item {
     border-top-width: 1px !important;
