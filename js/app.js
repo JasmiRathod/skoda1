@@ -40,16 +40,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
     })
 
-    .state('app.frontpage', {
-        url: "/frontpage",
-        views: {
-            'menuContent': {
-                templateUrl: "templates/frontpage.html",
-                controller: 'FrontpgCtrl'
-            }
-        }
-    })
-
     .state('app.enquiry', {
         url: "/enquiry",
         views: {

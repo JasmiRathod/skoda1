@@ -2,8 +2,6 @@ angular.module('starter.controllers', ['myservices'])
 
 .controller('AppCtrl', function ($scope, $ionicModal, $timeout) {})
 
-.controller('FrontpgCtrl', function ($scope, $stateParams) {})
-
 .controller('HomeCtrl', function ($scope, $stateParams) {})
 
 .controller('EnquiryCtrl', function ($scope, $stateParams, MyServices) {
